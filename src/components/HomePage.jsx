@@ -9,7 +9,8 @@ import { Cryptocurrencies, News } from "../components";
 const { Title } = Typography;
 
 const HomePage = () => {
-  const { data, isFetching } = useGetCryptosQuery();
+  const { data, isFetching } = useGetCryptosQuery(10);
+  console.log(data);
   const globalStats = data?.data?.stats;
   if (isFetching) return "Loading...";
   return (
