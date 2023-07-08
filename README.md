@@ -1,6 +1,6 @@
 <img width="950" alt="cryptoSagePic1" src="https://github.com/homosapian1999/CryptoSage/assets/52074379/77590e1a-4b64-4ed8-a1f5-7b699bc3f728">
 # CryptoSage
-CrytoSage: A Place for all the cryto lovers.
+
 Welcome to cryptoSage! This is a website that provides information and resources about cryptocurrencies. It aims to educate and empower users to navigate the world of cryptocurrencies with confidence.
 
 ## Features
