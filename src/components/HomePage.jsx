@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 import { Cryptocurrencies, News } from "../components";
 import Loader from "./Loader";
+import { PlusOutlined } from "@ant-design/icons";
 
 const { Title } = Typography;
 
@@ -50,10 +51,12 @@ const HomePage = () => {
       </Row>
       <div className="home-heading-container">
         <Title level={2} className="home-title">
-          Top 10 Crytocurrencies in the world
+          Top 10 Cryptos
         </Title>
         <Title level={3} className="show-more">
-          <Link to="/cryptocurrencies">Show More</Link>
+          <Link to="/cryptocurrencies">
+            <PlusOutlined />
+          </Link>
         </Title>
       </div>
       <Cryptocurrencies simplified />
@@ -62,7 +65,9 @@ const HomePage = () => {
           Latest Cryto News
         </Title>
         <Title level={3} className="show-more">
-          <Link to="/news">Show More</Link>
+          <Link to="/news">
+            <PlusOutlined />
+          </Link>
         </Title>
       </div>
       <News simplified />

@@ -52,6 +52,7 @@ a:hover {
 }
 .logo {
   margin: 0 0 0 15px;
+  margin-top: 10px;
 }
 .logo a {
   color: white;
@@ -64,6 +65,7 @@ a:hover {
   font-size: 1.2rem !important;
   background-color: var(--bgSecondary) !important;
   border: none !important;
+  margin-top: 10px;
 }
 
 .loader {
@@ -129,6 +131,8 @@ a:hover {
   }
   .show-more {
     font-size: 1.3rem !important;
+    /* margin-left: 20px; */
+    margin-top: -30px;
   }
 }
 
@@ -323,8 +327,21 @@ a:hover {
   gap: 50px;
   color: #0071bd;
 }
+
+@media screen and (max-width: 500px) {
+  .chart-header {
+    gap: 20px;
+  }
+}
 .chart-title {
   color: #0071bd !important;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .chart-title {
+    margin-top: 30px;
+  }
 }
 .price-container {
   display: flex !important;
