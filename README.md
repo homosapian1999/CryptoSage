@@ -11,7 +11,7 @@ Welcome to cryptoSage! This is a website that provides information and resources
 - **Responsive Design**: Enjoy a seamless experience across different devices, including desktops and mobile phones.
 
 ## Tech Tools Used
-= **React**: JavaScript library for building user interfaces.
+- **React**: JavaScript library for building user interfaces.
 - **Redux**: State management library for managing application state.
 - **Rapid API**: Rapid API is a platform that connects developers to a wide range of APIs, allowing them to access various functionalities and data from different services.
 - **Ant Design**: Ant Design is a popular and comprehensive UI library for React that provides a set of ready-to-use components and design patterns.
