@@ -1,3 +1,4 @@
+<img width="950" alt="cryptoSagePic1" src="https://github.com/homosapian1999/CryptoSage/assets/52074379/77590e1a-4b64-4ed8-a1f5-7b699bc3f728">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
