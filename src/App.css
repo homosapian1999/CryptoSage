@@ -288,6 +288,7 @@ a:hover {
 
 .select-news {
   width: 180px;
+  margin-bottom: 10px;
 }
 .news-card {
   min-height: 300px !important;
@@ -353,6 +354,7 @@ a:hover {
 .search-crypto {
   margin: 20px auto 30px auto;
   width: 250px;
+  border: 1px solid black;
 }
 .crypto-card-container {
   min-height: 65vh !important;

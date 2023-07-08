@@ -5,18 +5,18 @@ import { useGetCryptosQuery } from "../services/cryptoApi";
 import { Link } from "react-router-dom";
 
 import { Cryptocurrencies, News } from "../components";
+import Loader from "./Loader";
 
 const { Title } = Typography;
 
 const HomePage = () => {
   const { data, isFetching } = useGetCryptosQuery(10);
-  // console.log(data);
   const globalStats = data?.data?.stats;
-  if (isFetching) return "Loading...";
+  if (isFetching) return <Loader />;
   return (
     <>
       <Title level={2} className="heading">
-        Global Cryto Stats
+        Global Crypto Stats
       </Title>
       <Row>
         {/* Total 24 in antd */}

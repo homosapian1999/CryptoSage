@@ -2,7 +2,6 @@ import React from "react";
 import {
   CryptoDeatils,
   Cryptocurrencies,
-  Exchanges,
   Homepage,
   Navbar,
   News,
@@ -22,9 +21,11 @@ const App = () => {
           <div className="routes">
             <Routes>
               <Route path="/" element={<Homepage />} />
-              <Route path="/exchanges" element={<Exchanges />} />
               <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />
-              <Route path="/crypto/:coinId" element={<CryptoDeatils />} />
+              <Route
+                path="/cryptocurrencies/crypto/:coinId"
+                element={<CryptoDeatils />}
+              />
               <Route path="/news" element={<News />} />
             </Routes>
           </div>
@@ -34,13 +35,14 @@ const App = () => {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            CrytoVerse <br />
+            CoinSage by homosapian
+            <br />
             Copyright &copy; 2023. All Rights Reserved
           </Typography.Title>
 
           <Space>
-            <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/">Home |</Link>
+            <Link to="/cryptocurrencies">Cryptos |</Link>
             <Link to="/news">News</Link>
           </Space>
         </div>
