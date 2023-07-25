@@ -1,5 +1,4 @@
-<img width="950" alt="cryptoSagePic1" src="https://github.com/homosapian1999/CryptoSage/assets/52074379/ae0f9644-539a-4854-ab9b-3194aaaf043f">
-
+<img width="950" alt="cryptoSagePic1" src="https://github.com/homosapian1999/CryptoSage/assets/52074379/dd6dfd79-25a3-41cf-89e7-d6e3f997eac4">
 
 # CryptoSage
 
