@@ -394,3 +394,31 @@ a:hover {
   padding: 20px;
   align-items: center;
 }
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.news-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-image-container img {
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.provider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
