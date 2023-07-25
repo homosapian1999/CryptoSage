@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-![Example Image](cryptoSagePic1.png)
+<img width="950" alt="cryptoSagePic1" src="https://github.com/homosapian1999/CryptoSage/assets/52074379/dd6dfd79-25a3-41cf-89e7-d6e3f997eac4">
 
-# Getting Started with Create React App
-=======
-<img width="950" alt="cryptoSagePic1" src="https://github.com/homosapian1999/CryptoSage/assets/52074379/77590e1a-4b64-4ed8-a1f5-7b699bc3f728">
+
+
+Hosted Link: https://crypto-sage-red.vercel.app/
+
 # CryptoSage
->>>>>>> ceea97605fa107523ff1057afc69c31636c22ecb
 
 Welcome to cryptoSage! This is a website that provides information and resources about cryptocurrencies. It aims to educate and empower users to navigate the world of cryptocurrencies with confidence.
 
@@ -32,6 +31,3 @@ Welcome to cryptoSage! This is a website that provides information and resources
           npm start || nodemon index.js
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request.
-
-
-
