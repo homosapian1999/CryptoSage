@@ -52,7 +52,7 @@ const News = ({ simplified }) => {
                     "https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=News"
                   }
                   alt="news"
-                  style={{ maxWidth: "200px", maxHeight: "100pc" }}
+                  style={{ maxWidth: "200px", maxHeight: "100px" }}
                 />
               </div>
               <p>
