@@ -75,11 +75,11 @@ a:hover {
   align-items: center;
 }
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   .main {
     margin-left: 50px;
   }
-}
+} */
 
 @media screen and (max-width: 1170px) {
   .main {
@@ -398,8 +398,9 @@ a:hover {
 .news-card {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 350px;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .news-image-container {
@@ -418,7 +419,13 @@ a:hover {
 }
 
 .provider-container {
+  position: absolute;
+  bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.time {
+  margin-left: 30px;
 }

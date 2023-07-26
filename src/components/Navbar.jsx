@@ -33,7 +33,7 @@ const Navbar = () => {
     <div className="nav-container">
       <div className="logo-container">
         <Avatar
-          src="https://i.ibb.co/Z11pcGG/cryptocurrency.png"
+          src="https://th.bing.com/th/id/OIG.sCzAFWLOuKGCIYB._.Ro?pid=ImgGn"
           size="large"
         />
         <Typography.Title level={2} className="logo">
