@@ -398,7 +398,7 @@ a:hover {
 .news-card {
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 320px;
   margin-bottom: 10px;
   position: relative;
 }
